@@ -1,7 +1,9 @@
 <h3>Installation</h3>
 <br>
 
-`composer require mavlitov98/clickhouse-migrations`
+```bash
+composer require mavlitov98/clickhouse-migrations
+```
 
 <h3>Setup</h3>
 <br>
