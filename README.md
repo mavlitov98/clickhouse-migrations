@@ -1,3 +1,8 @@
+### ClickhouseMigrationsBundle
+
+This bundle integrates the Clickhouse Migrations into Symfony applications. Database migrations help you version the changes in your database schema and apply them in a predictable way on every server running the application.
+
+
 ### Installation
 <br>
 
@@ -5,7 +10,19 @@
 composer require mavlitov98/clickhouse-migrations
 ```
 
-### Setup
+If you don't use `Symfony Flex`, you must enable the bundle manually in the application:
+
+```php
+// config/bundles.php
+// in older Symfony apps, enable the bundle in app/AppKernel.php
+return [
+    // ...
+    ClickhouseMigrations\ClickhouseMigrationsBundle::class => ['all' => true],
+];
+```
+
+
+### Configuration
 <br>
 
 Create configuration `clickhouse_migrations.yaml` in `config/packages` with the following content:
