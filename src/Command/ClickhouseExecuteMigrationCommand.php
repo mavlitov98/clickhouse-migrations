@@ -37,7 +37,7 @@ final class ClickhouseExecuteMigrationCommand extends Command
 
     public function configure(): void
     {
-        $this->setDescription('Применяет или откатывает конкретную миграцию ClickHouse')
+        $this->setDescription('Apply or rollback Clickhouse migration')
             ->addArgument(
                 name: 'version',
                 mode: InputOption::VALUE_REQUIRED,
