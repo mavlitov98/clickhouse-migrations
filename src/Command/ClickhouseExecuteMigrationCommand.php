@@ -29,7 +29,7 @@ final class ClickhouseExecuteMigrationCommand extends Command
      */
     public function __construct(
         private readonly Client $client,
-        private readonly array  $migrations,
+        private readonly array $migrations,
         private readonly string $migrationsVersionTable,
     ) {
         parent::__construct();
