@@ -1,11 +1,11 @@
-<h3>Installation</h3>
+### Installation
 <br>
 
 ```bash
 composer require mavlitov98/clickhouse-migrations
 ```
 
-<h3>Setup</h3>
+### Setup
 <br>
 
 Create configuration `clickhouse_migrations.yaml` in `config/packages` with the following content:
@@ -25,9 +25,10 @@ clickhouse_migrations:
 ```
 
 <br>
-<h3>Commands</h3>
 
-- `clickhouse-migrations:generate` - generate new migration for ClickHouse.
-- `clickhouse-migrations:migrate` - apply all generated migrations to ClickHouse.
-- `clickhouse-migrations:execute [VersionXXXXXXXXXXXXXX] [up|down]` - apply or rollback ClickHouse migration.
+### Commands
+
+- `bin/console clickhouse-migrations:generate` - generate new migration for ClickHouse.
+- `bin/console clickhouse-migrations:migrate` - apply all generated migrations to ClickHouse.
+- `bin/console clickhouse-migrations:execute [VersionXXXXXXXXXXXXXX] [up|down]` - apply or rollback ClickHouse migration.
 
