@@ -45,7 +45,20 @@ clickhouse_migrations:
 
 ### Commands
 
-- `bin/console clickhouse-migrations:generate` - generate new migration for ClickHouse.
-- `bin/console clickhouse-migrations:migrate` - apply all generated migrations to ClickHouse.
-- `bin/console clickhouse-migrations:execute [VersionXXXXXXXXXXXXXX] [up|down]` - apply or rollback ClickHouse migration.
+>*Generate new migration for ClickHouse:*
 
+```bash
+php bin/console clickhouse-migrations:generate
+```
+
+>*Apply all generated migrations to ClickHouse:*
+
+```bash
+php bin/console clickhouse-migrations:migrate
+```
+
+>*Apply or rollback ClickHouse migration:*
+
+```bash
+php bin/console clickhouse-migrations:execute [VersionXXXXXXXXXXXXXX] [up|down]
+```
