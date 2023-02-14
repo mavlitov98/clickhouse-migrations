@@ -24,7 +24,7 @@ final class ClickhouseGenerateMigrationCommand extends Command
 
     protected function configure(): void
     {
-        $this->setDescription('Генерирует новую миграцию Clickhouse');
+        $this->setDescription('Generate new migration for Clickhouse');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
