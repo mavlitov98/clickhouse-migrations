@@ -10,7 +10,7 @@ This bundle integrates the Clickhouse Migrations into Symfony applications. Data
 composer require mavlitov98/clickhouse-migrations
 ```
 
-If you don't use `Symfony Flex`, you must enable the bundle manually in the application:
+If you don't use [Symfony Flex](https://symfony.com/components/Symfony%20Flex), you must enable the bundle manually in the application:
 
 ```php
 // config/bundles.php
