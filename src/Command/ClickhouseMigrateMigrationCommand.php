@@ -31,7 +31,7 @@ final class ClickhouseMigrateMigrationCommand extends Command
 
     public function configure(): void
     {
-        $this->setDescription('Применяет все новые миграции ClickHouse');
+        $this->setDescription('Apply all Clickhouse migrations');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
