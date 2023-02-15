@@ -3,7 +3,7 @@
   "type": "symfony-bundle",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "license": "proprietary",
+  "license": "MIT",
   "require": {
     "php": "^8.1",
     "fp4php/functional": "^5.0",
@@ -19,14 +19,11 @@
   "config": {
     "preferred-install": {
       "*": "dist"
-    },
-    "allow-plugins": {
-      "dealerdirect/phpcodesniffer-composer-installer": true
     }
   },
   "autoload": {
     "psr-4": {
-      "ClickhouseMigrations\\": "/src"
+      "ClickhouseMigrations\\": "src/"
     }
   }
 }
