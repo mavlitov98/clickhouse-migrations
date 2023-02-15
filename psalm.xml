@@ -7,6 +7,7 @@
     <projectFiles>
         <directory name="src"/>
         <ignoreFiles>
+            <file name="src/ClickhouseMigrationsBundle.php"/>
             <directory name="vendor"/>
             <directory name="var"/>
         </ignoreFiles>
