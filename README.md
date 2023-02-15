@@ -1,5 +1,7 @@
 ### ClickhouseMigrationsBundle
 
+![psalm level](https://shepherd.dev/github/mavlitov98/clickhouse-migrations/level.svg)
+![psalm type coverage](https://shepherd.dev/github/mavlitov98/clickhouse-migrations/coverage.svg)
 
 This bundle integrates the Clickhouse Migrations into Symfony applications. Database migrations help you version the changes in your database schema and apply them in a predictable way on every server running the application.
 
